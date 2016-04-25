@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>nbfc</id>
+    <title>NoteBook FanControl</title>
+    <version>1.4.2</version>
+    <authors>Stefan Hirschmann</authors>
+    <owners>Stefan Hirschmann</owners>
+    <summary>Fan control service for notebooks</summary>
+    <description>NBFC is a cross-platform fan control service for notebooks. It comes with a powerful configuration system, which allows to adjust it to many different notebook models.</description>
+    <projectUrl>https://github.com/hirschmann/nbfc</projectUrl>
+    <!--<packageSourceUrl></packageSourceUrl>-->
+    <projectSourceUrl>https://github.com/hirschmann/nbfc</projectSourceUrl>
+    <docsUrl>https://github.com/hirschmann/nbfc/wiki</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/hirschmann/nbfc/issues</bugTrackerUrl>
+    <tags>nbfc notebook fan control speed temperature admin</tags>
+    <copyright>Copyright Stefan Hirschmann (c) 2016</copyright>
+    <licenseUrl>https://github.com/hirschmann/nbfc/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://cdn.rawgit.com/wiki/hirschmann/nbfc/images/icon128.png</iconUrl>
+    <releaseNotes>Most important changes:
+- Added an EC probing tool (thanks @alexander255)
+- Improved Linux support (thanks @alexander255)
+- Min/max values can be set independently for read/write operations
+- GUI improvements
+- Supports Intel Skylake
+- Supports more notebook models out of the box</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
