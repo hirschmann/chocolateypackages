@@ -10,10 +10,9 @@
     <summary>Fan control service for notebooks</summary>
     <description>NBFC is a cross-platform fan control service for notebooks. It comes with a powerful configuration system, which allows to adjust it to many different notebook models.</description>
     <projectUrl>https://github.com/hirschmann/nbfc</projectUrl>
-    <!--<packageSourceUrl></packageSourceUrl>-->
+    <packageSourceUrl>https://github.com/hirschmann/chocolateypackages</packageSourceUrl>
     <projectSourceUrl>https://github.com/hirschmann/nbfc</projectSourceUrl>
     <docsUrl>https://github.com/hirschmann/nbfc/wiki</docsUrl>
-    <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/hirschmann/nbfc/issues</bugTrackerUrl>
     <tags>nbfc notebook fan control speed temperature admin</tags>
     <copyright>Copyright Stefan Hirschmann (c) 2016</copyright>
