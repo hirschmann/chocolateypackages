@@ -4,7 +4,7 @@
   <metadata>
     <id>nbfc</id>
     <title>NoteBook FanControl</title>
-    <version>1.4.2</version>
+    <version>1.5.0</version>
     <authors>Stefan Hirschmann</authors>
     <owners>Stefan Hirschmann</owners>
     <summary>Fan control service for notebooks</summary>
@@ -20,12 +20,15 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://cdn.rawgit.com/wiki/hirschmann/nbfc/images/icon128.png</iconUrl>
     <releaseNotes>Most important changes:
-- Added an EC probing tool (thanks @alexander255)
-- Improved Linux support (thanks @alexander255)
-- Min/max values can be set independently for read/write operations
+- Read-only mode which let's you try out different configs without actually manipulating the EC
+- Improved handling of standby and hibernate
+- New EC probing tool command: _ec-probe monitor_
+- New CLI option: _nbfc config --recommend_
+- Support for Intel Kaby Lake and Airmont
 - GUI improvements
-- Supports Intel Skylake
-- Supports more notebook models out of the box</releaseNotes>
+- Improved plugin loader
+- More notebook models supported out of the box
+- Various bugfixes</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

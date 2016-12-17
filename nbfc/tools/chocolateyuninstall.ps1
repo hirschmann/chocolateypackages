@@ -2,7 +2,7 @@
 
 $packageName = 'nbfc'
 $softwareName = 'NoteBook FanControl'
-$installerName = '*NbfcBootstrapper.exe*'
+$installerName = '*NoteBookFanControl.setup.exe*'
 $installerType = 'EXE' 
 $silentArgs = '/uninstall /quiet'
 $validExitCodes = @(0)

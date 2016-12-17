@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $packageName= 'nbfc'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/hirschmann/nbfc/releases/download/1.4.2/NoteBookFanControl.1.4.2.setup.exe'
+$url        = 'https://github.com/hirschmann/nbfc/releases/download/1.5.0/NoteBookFanControl.1.5.0.setup.exe'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -11,7 +11,7 @@ $packageArgs = @{
   silentArgs    = "-s"
   validExitCodes= @(0)
   softwareName  = 'NoteBook FanControl'
-  checksum      = '19D9A6A574390867B0E0C43C651A4FE0'
+  checksum      = 'F6AA09331A6D501FC7754D4A584B9B07'
   checksumType  = 'md5'
 }
 
