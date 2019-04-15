@@ -6,7 +6,6 @@ $installerName = '*NoteBookFanControl.setup.exe*'
 $installerType = 'EXE' 
 $silentArgs = '/uninstall /quiet'
 $validExitCodes = @(0)
-$uninstalled = $false
 $local_key     = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*'
 $machine_key   = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*'
 $machine_key6432 = 'HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*'

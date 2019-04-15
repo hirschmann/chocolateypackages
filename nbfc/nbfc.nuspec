@@ -4,7 +4,7 @@
   <metadata>
     <id>nbfc</id>
     <title>NoteBook FanControl</title>
-    <version>1.5.0</version>
+    <version>1.6.3</version>
     <authors>Stefan Hirschmann</authors>
     <owners>Stefan Hirschmann</owners>
     <summary>Fan control service for notebooks</summary>
@@ -15,7 +15,7 @@
     <docsUrl>https://github.com/hirschmann/nbfc/wiki</docsUrl>
     <bugTrackerUrl>https://github.com/hirschmann/nbfc/issues</bugTrackerUrl>
     <tags>nbfc notebook fan control speed temperature admin</tags>
-    <copyright>Copyright Stefan Hirschmann (c) 2016</copyright>
+    <copyright>Copyright Stefan Hirschmann (c) 2012-2019</copyright>
     <licenseUrl>https://github.com/hirschmann/nbfc/blob/master/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://cdn.rawgit.com/wiki/hirschmann/nbfc/images/icon128.png</iconUrl>
