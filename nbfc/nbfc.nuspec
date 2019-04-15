@@ -20,15 +20,12 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://cdn.rawgit.com/wiki/hirschmann/nbfc/images/icon128.png</iconUrl>
     <releaseNotes>Most important changes:
-- Read-only mode which let's you try out different configs without actually manipulating the EC
-- Improved handling of standby and hibernate
-- New EC probing tool command: _ec-probe monitor_
-- New CLI option: _nbfc config --recommend_
-- Support for Intel Kaby Lake and Airmont
-- GUI improvements
-- Improved plugin loader
-- More notebook models supported out of the box
-- Various bugfixes</releaseNotes>
+- Support for Intel CoffeeLake, ApolloLake and AMD Ryzen CPUs
+- Support for AMD Puma CPUs
+- Support for many new notebook models
+- _ec-probe_ now supports colored output
+- Improved settings file handling
+- Lots of stability improvements and bugfixes</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
